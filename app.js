@@ -40,11 +40,59 @@
 //     document.write(i,",")
 // }
 // document.write("<br>Even:<br>")
-// for(var i=1; i<=20; i+=i){
+// for(var i=0; i<=20; i+=2){
 //     document.write(i,",")
 // }
 
 // document.write("<br>Odd:<br>")
 // for(var i=1; i<=20; i+=2){
 //     document.write(i,",")
+// }
+
+// document.write("<br>series:<br>")
+// for(var i=2; i<=20; i+=2){
+//   document.write(i+"K,")
+// }
+
+//Q7
+// var a=['cake','apple pie','cookie','chips','patties']
+// var find=prompt('Enter the bakery item name')
+// var match='no'
+// for(var i=0; i<a.length; i++){
+//     if(find===a[i]){
+//         match='yes'
+//         alert(find+'product is in arry index of'+i)
+//         break
+//     }
+// }
+// if(match =='no'){
+//     alert(find+'product is not found')
+// }
+
+//Q8
+
+// var arr=[24,53,78,91,12]
+// var largest=arr[0]
+// for( var i=0; i<arr.length; i++){
+//     if(arr[i]>largest){
+//         largest=arr[i]
+//     }
+// }
+// console.log("The largest number of in arry is:"+largest)
+
+//Q9
+
+// var arr=[24,53,78,91,12]
+// var smallest=arr[0]
+// for(var i=0; i<arr.length; i++){
+//     if(arr[i]<smallest){
+//  smallest=arr[i]
+//     }
+// }
+// console.log("The smallest number of in arry is: "+smallest)
+
+//Q10
+
+// for (var i=5; i<=100; i=i+5){
+//     console.log(i)
 // }
